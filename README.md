@@ -22,25 +22,7 @@ Sistem manajemen apotek berbasis Java GUI dengan fitur login multi-role, manajem
 - 📊 **Laporan Apotek** — 3 jenis laporan: Stok Menipis, Pemasukan (Penjualan), dan Pengeluaran (Restock)
 - 🔒 **Role-Based Access Control** — Admin dan Pelanggan memiliki halaman dan akses yang berbeda
 
----
 
-## 🗂️ Struktur Project
-
-```
-Apotek_V2
-└── src/apotek_v2/
-    ├── KoneksiDB.java          → Pusat koneksi database (OOP)
-    ├── UserSession.java        → Manajemen sesi login
-    ├── Form_Login.java         → Halaman login
-    ├── Form_Register.java      → Pendaftaran akun pelanggan
-    ├── Form_MenuAdmin.java     → Dashboard admin
-    ├── Form_Obat.java          → Kelola data obat
-    ├── Form_Supplier.java      → Kelola data supplier
-    ├── Form_Restock.java       → Transaksi beli obat ke supplier
-    ├── Form_Kasir.java         → Transaksi penjualan oleh kasir
-    ├── Form_Laporan.java       → Laporan apotek
-    └── Form_TokoPelanggan.java → Halaman belanja pelanggan
-```
 
 ---
 
