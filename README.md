@@ -41,20 +41,27 @@ Apotek_V2
 
 ---
 
-## 🗄️ Struktur Database
+## 🗂️ Struktur Project
 
-Database: `Apotek_V2`
-
-| Tabel | Fungsi |
-|-------|--------|
-| `users` | Menyimpan data akun login (Admin & Pelanggan) |
-| `obat` | Master data obat dengan harga beli & jual |
-| `supplier` | Master data supplier |
-| `transaksi_jual` | Header transaksi penjualan |
-| `detail_jual` | Detail item transaksi penjualan |
-| `transaksi_beli` | Header transaksi restock/pembelian obat |
-| `detail_beli` | Detail item transaksi restock |
-
+```
+Apotek_V2/
+├── src/
+│   └── apotek_v2/
+│       ├── KoneksiDB.java          → Pusat koneksi database (OOP)
+│       ├── UserSession.java        → Manajemen sesi login
+│       ├── Form_Login.java         → Halaman login
+│       ├── Form_Register.java      → Pendaftaran akun pelanggan
+│       ├── Form_MenuAdmin.java     → Dashboard admin
+│       ├── Form_Obat.java          → Kelola data obat
+│       ├── Form_Supplier.java      → Kelola data supplier
+│       ├── Form_Restock.java       → Transaksi beli obat ke supplier
+│       ├── Form_Kasir.java         → Transaksi penjualan oleh kasir
+│       ├── Form_Laporan.java       → Laporan apotek
+│       └── Form_TokoPelanggan.java → Halaman belanja pelanggan
+└── libraries/
+    ├── mssql-jdbc-13.4.0.jre11.jar
+    └── jcalendar-1.4.jar
+```
 ---
 
 ## 🔄 Alur Aplikasi
@@ -73,7 +80,7 @@ Database: `Apotek_V2`
 ---
 
 ## 🛠️ Teknologi yang Digunakan
-
+'''
 | Teknologi | Keterangan |
 |-----------|-----------|
 | Java SE | Bahasa pemrograman utama |
@@ -82,7 +89,7 @@ Database: `Apotek_V2`
 | JDBC (mssql-jdbc-13.4.0.jre11) | Koneksi Java ke SQL Server |
 | JCalendar (jcalendar-1.4) | Komponen pemilih tanggal |
 | Apache NetBeans IDE 27 | IDE pengembangan |
-
+'''
 ---
 
 ## ⚙️ Cara Menjalankan
