@@ -63,7 +63,7 @@ Apotek_V2/
     └── jcalendar-1.4.jar
 ```
 ---
-
+'''
 ## 🔄 Alur Aplikasi
 [Form_Login]
 │
@@ -76,11 +76,11 @@ Apotek_V2/
 │
 └── Role: Pelanggan ──► [Form_TokoPelanggan]
 └── Belanja & Checkout
-
+'''
 ---
 
 ## 🛠️ Teknologi yang Digunakan
-'''
+
 | Teknologi | Keterangan |
 |-----------|-----------|
 | Java SE | Bahasa pemrograman utama |
@@ -89,7 +89,7 @@ Apotek_V2/
 | JDBC (mssql-jdbc-13.4.0.jre11) | Koneksi Java ke SQL Server |
 | JCalendar (jcalendar-1.4) | Komponen pemilih tanggal |
 | Apache NetBeans IDE 27 | IDE pengembangan |
-'''
+
 ---
 
 ## ⚙️ Cara Menjalankan
