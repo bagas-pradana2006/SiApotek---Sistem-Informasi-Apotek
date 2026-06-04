@@ -63,20 +63,21 @@ Apotek_V2/
     └── jcalendar-1.4.jar
 ```
 ---
-'''
 ## 🔄 Alur Aplikasi
+
+```
 [Form_Login]
-│
-├── Role: Admin ──► [Form_MenuAdmin]
-│                        ├── Form_Obat
-│                        ├── Form_Supplier
-│                        ├── Form_Restock
-│                        ├── Form_Kasir
-│                        └── Form_Laporan
-│
-└── Role: Pelanggan ──► [Form_TokoPelanggan]
-└── Belanja & Checkout
-'''
+     │
+     ├── Role: Admin ──► [Form_MenuAdmin]
+     │                        ├── Form_Obat
+     │                        ├── Form_Supplier
+     │                        ├── Form_Restock
+     │                        ├── Form_Kasir
+     │                        └── Form_Laporan
+     │
+     └── Role: Pelanggan ──► [Form_TokoPelanggan]
+                                  └── Belanja & Checkout
+```
 ---
 
 ## 🛠️ Teknologi yang Digunakan
@@ -142,7 +143,7 @@ String password = "12345678";
 **Nama:** Ibrahim Bagas Pradana  
 **NIM:** 255150207111046  
 **Program Studi:** Teknik Informatika  
-**Universitas Brawijaya
+**Universitas:** Universitas Brawijaya
 
 ---
 
