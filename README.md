@@ -25,19 +25,22 @@ Sistem manajemen apotek berbasis Java GUI dengan fitur login multi-role, manajem
 ---
 
 ## 🗂️ Struktur Project
+
+```
 Apotek_V2
 └── src/apotek_v2/
-├── KoneksiDB.java        → Pusat koneksi database (OOP)
-├── UserSession.java      → Manajemen sesi login
-├── Form_Login.java       → Halaman login
-├── Form_Register.java    → Pendaftaran akun pelanggan
-├── Form_MenuAdmin.java   → Dashboard admin
-├── Form_Obat.java        → Kelola data obat
-├── Form_Supplier.java    → Kelola data supplier
-├── Form_Restock.java     → Transaksi beli obat ke supplier
-├── Form_Kasir.java       → Transaksi penjualan oleh kasir
-├── Form_Laporan.java     → Laporan apotek
-└── Form_TokoPelanggan.java → Halaman belanja pelanggan
+    ├── KoneksiDB.java          → Pusat koneksi database (OOP)
+    ├── UserSession.java        → Manajemen sesi login
+    ├── Form_Login.java         → Halaman login
+    ├── Form_Register.java      → Pendaftaran akun pelanggan
+    ├── Form_MenuAdmin.java     → Dashboard admin
+    ├── Form_Obat.java          → Kelola data obat
+    ├── Form_Supplier.java      → Kelola data supplier
+    ├── Form_Restock.java       → Transaksi beli obat ke supplier
+    ├── Form_Kasir.java         → Transaksi penjualan oleh kasir
+    ├── Form_Laporan.java       → Laporan apotek
+    └── Form_TokoPelanggan.java → Halaman belanja pelanggan
+```
 
 ---
 
